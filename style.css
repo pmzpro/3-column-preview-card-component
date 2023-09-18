@@ -1,0 +1,151 @@
+:root {
+    --ff-primary-color-orange:hsl(31, 77%, 52%);
+    --ff-primary-color-cyan:hsl(184, 100%, 22%);
+    --ff-primary-color-darkcyan:hsl(179, 100%, 13%);
+
+    --neutral-white:hsla(0, 0%, 100%, 0.75);
+    --neutral-gray:hsl(0, 0%, 95%);
+
+    --fs-body:0.9375rem;
+
+    --ff-regular:400;
+    --ff-bold:700;
+
+    --ff-base:'Lexend Deca', sans-serif;
+    --ff-title: 'Big Shoulders Display', cursive;
+
+}
+
+/* CSS RESET */ 
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+
+ /* general styling */
+
+body {
+    font-size: var(--fs-body);
+    color: var(--neutral-white);
+    font-family: var(--ff-base);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.flex-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 8px;
+    margin: 3rem;
+    overflow: hidden;
+
+}
+
+.box {
+  padding: 2.5rem;
+  
+}
+
+.orange-banner {
+    background-color: var(--ff-primary-color-orange);
+}
+.cyan-banner {
+    background-color: var(--ff-primary-color-cyan);
+}
+.darkcyan-banner {
+    background-color: var(--ff-primary-color-darkcyan);
+}
+
+h2 {
+  font-family: var(--ff-title);
+  text-transform: uppercase;
+  color: var(--neutral-gray);
+  font-weight: var(--ff-bold);
+  font-size: 2.4rem;
+  margin-block: 2.1875rem 1.5625rem;
+}
+
+p {
+  margin-block: 0 5.1875rem;
+  
+  
+}
+
+img {
+  margin-top: 7.3px;
+}
+
+/* Anchor tag (button) styling */ 
+
+.orange-banner a {
+  color: var(--ff-primary-color-orange);
+}
+.cyan-banner a {
+  color: var(--ff-primary-color-cyan);
+}
+.darkcyan-banner a {
+  color: var(--ff-primary-color-darkcyan);
+}
+
+a {
+  border: 2px solid;
+  background-color: white;
+  border-radius: 2em;
+  height: 3rem;
+  padding-inline: 2rem;
+  line-height: 2.75rem;
+  display: inline-block;
+  text-decoration: none;
+  
+  
+}
+
+a:hover { 
+  text-decoration: none; background-color: transparent; 
+}
+a:hover, a:active { 
+  text-decoration: none; color:white; 
+}
+
+/* responsive site */
+
+@media only screen and (max-width: 768px) {
+  .flex-group {
+    grid-template-columns: 1fr;
+  }
+  p {
+    margin-block: 0 1.5625rem;
+    
+  }
+}
+

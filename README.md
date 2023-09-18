@@ -9,7 +9,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
 
@@ -25,12 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/pmzpro/3-column-preview-card-component/assets/142250942/edbb7cfe-bf33-4947-aec1-0bc148e991da)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://github.com/pmzpro/3-column-preview-card-component)
+- Live Site URL: [Click Here](https://pmzpro.github.io/3-column-preview-card-component)
 
 ### Built with
 
